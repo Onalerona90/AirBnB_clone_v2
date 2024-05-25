@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+from flask import Flask, render_template
 """
 This script starts a Flask web application.
 
@@ -20,7 +21,6 @@ The web application listens on 0.0.0.0, port 5000 and has the following routes:
 You must use the option strict_slashes=False in your route definition.
 """
 
-from flask import Flask, render_template
 
 app = Flask(__name__)
 
